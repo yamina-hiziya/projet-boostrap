@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/570432de6a.js" crossorigin="anonymous"></script>
+    <title>bootstrap 5</title>
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg bg-body-transparent">
+                <div class="container">
+                    <div>
+                        <a class="navbar-brand" href="#"><img src="assets/img/webagency_images/images/logo.png" alt="logo webagency"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"  id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active icon-link icon-link-hover" aria-current="page" href="#">accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link icon-link icon-link-hover" href="#">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link icon-link icon-link-hover" href="#">portefolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link icon-link icon-link-hover" aria-disabled="true">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <section id="slider" class="container d-flex justify-content-center">
+        <div class="text-white image_text">
+            <h1 class="text-uppercase">
+                <span>webagency</span>: l'agence de tous vos projets!
+            </h1>
+            <p>Vous avez un projet web ? la webAgency vous aide à le réaliser</p>
+            <button class="title text-white">plus d'infos</button>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/webagency_images/images/slider/bg1.jpg" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/webagency_images/images/slider/bg2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    <main class="container">
+        <section id="Services" class="row my-5">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2 class="text-center">Nos services</h2>
+                <div class="line"></div>
+                <div class="circle"><i class="fas fa-circle fa-xs"></i>
+                </div>
+                <p class="mx-auto mt-5">De taille humaine, notre agence vous accompagne du début à la fin de votre projet. Nos experts vous aident à optimiser l'expérience utilisateur et tirer le meilleur potentiel de chaque support, du web au mobile.</p>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-12">
+                <img src="assets/img/webagency_images/images/main-feature.png" alt="ordi">
+            </div>
+            <div class="col-lg-6 col-md-7 col-sm-12 d-flex flex-column">
+                <div class="d-flex w-100">
+                    <div class="icon">
+                        <i class="fas fa-chart-line fa-lg"></i>
+                    </div>
+                    <div class="title_text w-100 ms-4">
+                        <h3>UX design</h3>
+                        <p>Une équipe passionée qui place l’utilisateur final au centre de sa démarche pour une technologie plus
+                            humaine.
+                        </p>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="icon">
+                        <i class="fas fa-cubes fa-lg"></i>
+                    </div>
+                    <div class="title_text ms-4">
+                        <h3>UI design</h3>
+                        <p> Une interface optimisée qui permet à votre site web de rester à la page au gré des évolutions techniques
+                        et des nouveaux usages.
+                        </p>
+                    </div>
+                <div class="">
+                    <div class="icon">
+                        <i class="fas fa-chart-pie fa-lg"></i>
+                    </div>
+                    <div class="title_text w-100 ms-4">
+                        <h3>SEO</h3>
+                        <p> Nos experts en référencement vous permettent d'améliorer le positionnement de votre site afin d'augmenter
+                            votre conversion.
+                        </p>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <section id="projet" class="row my-5">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h2 class="text-center">Nos projets</h2>
+                    <div class="line"></div>
+                    <div class="circle"><i class="fas fa-circle fa-xs"></i>
+                    </div>
+                    <p class="mx-auto mt-5">Beaucoup d'entreprises et particuliers nous ont fais confiance pour leur projets ! Découvrez une sélection de nos réalisations tendances, modernes et innovantes.</p>
+                </div>
+                <nav class="nav_projets mx-auto">
+                    <a href="#tous" class="mx-auto">tous</a>
+                    <a href="#créations" class="mx-auto">créations</a>
+                    <a href="#corporate" class="mx-auto">corporate</a>
+                    <a href="#portfolio" class="mx-auto" >portfolio</a>
+                </nav>
+                <div class="album my-5">
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/01.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/01.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>Lunette en folie</h4>
+                            <p>Les lunettes qui ont du pif</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/02.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/02.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>Origamis création!</h4>
+                            <p>Rabbit Party</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/03.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/03.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>Pompadour.fr</h4>
+                            <p>Site Pompadour original</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/04.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/04.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>Tendance architecture</h4>
+                            <p>Création de Maquette</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/05.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/05.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>Mockup.com</h4>
+                            <p>Site de vente en ligne</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/06.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/06.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>Architecture du monde</h4>
+                            <p>Création Graphique</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/07.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/07.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>Créative logo</h4>
+                            <p>Une de nos création Logo</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href=".assets/img/webagency_images/images/portfolio/08.jpg">
+                            <img src="assets/img/webagency_images/images/portfolio/08.jpg" alt="Projet UX design">
+                        </a>
+                        <figcaption>
+                            <h4>BeTheme.fr</h4>
+                            <p>Fournitures Bureautique</p>
+                            <i class="fa fa-eye"></i>
+                        </figcaption>
+                    </figure>
+                </div>
+        </section>
+        <section id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21669.758763882222!2d-0.09175040000000001!3d47.2416256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1739440299511!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="filtre"></div>
+            <form action="">
+                <div class="row mb-3">
+                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Nom</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Nom">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Sujet</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Sujet">
+                    </div>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Votre message...</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </section>
+    </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
+
