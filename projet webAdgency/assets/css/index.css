@@ -123,6 +123,15 @@
     --bs-form-invalid-border-color: #dc3545;
 }
 
+body {
+    background-color: #cacaca;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #fff;
+}
+
 #services p {
     max-width: 80%;
 }
@@ -130,11 +139,6 @@
 .nav-link:hover {
     color: brown;
 }
-
-.image_text span {
-    color: #0dcaf0;
-}
-
 
 #slider {
     position: relative;
@@ -147,23 +151,21 @@
     left: 147px;
 }
 
-.title {
+.image_text span {
     color: #0dcaf0;
 }
 
-h1 {
-    font-size: 2.2em;
+.title {
+    color: #0dcaf0;
 }
 
 .line {
     position: relative;
     height: 1px;
     width: 200px;
-    background-color: rgb(0, 0, 0, -5);
+    background-color: rgb(0, 0, 0, .5);
     left: 42%;
     top: 9%;
-    color: rgba(0, 0, 0, .5);
-
 }
 
 .circle {
@@ -264,8 +266,7 @@ h1 {
     background-color: rgba(0, 0, 0, .5);
     overflow: hidden;
     height: 0;
-    transition: .5 ease;
-
+    transition: .5s ease;
 }
 
 .album figcaption h4 {
@@ -299,18 +300,35 @@ h1 {
     z-index: 5;
 }
 
-/* #contact{
+#contact {
     position: relative;
 }
-iframe{
+
+iframe {
     width: 100%;
     position: absolute;
     z-index: 2;
     margin: 0 auto;
 }
-.filtre{
+
+.filtre {
     position: relative;
     width: 100%;
     z-index: 2;
-    background-color: rgba(25, 25,253,0,164);
-} */
+    background-color: rgba(25, 25, 253, 0, 164);
+}
+
+.form {
+    position: relative;
+    min-width: 300px;
+    left: 45%;
+    z-index: 2;
+    opacity: 0.9;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 8px;
+
+}
