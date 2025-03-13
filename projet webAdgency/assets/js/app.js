@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //affiche les données dans la console (pour demonstration)
             //dans une cas reel, on enverrait ces donnes a un serveur
-            consol.log('Données prêtes pour envoi au backend:', sanitazeData);
+            console.log('Données prêtes pour envoi au backend:', sanitazeData);
 
             //AFFICHAGE DU MESSAGE DE SUCCES =====
             //recupere les elements necessaires

@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         form.addEventListener('submit', function (event) {
             // Empêche le comportement par défaut (rechargement de la page)
             event.preventDefault();
-
+            //
 
             // Vérifie si le formulaire est valide (tous les champs remplis)
             if (!checkForm()) {
